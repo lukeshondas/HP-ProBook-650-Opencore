@@ -27,7 +27,7 @@ This EFI works perfectly and natively on Mac OS 12 `Monterey` and works fine wit
 | Ethernet                                          | ✅     |                                   |
 | Wifi                                              | ✅     |Intel only with [Heliport](https://github.com/OpenIntelWireless/HeliPort) on Sequoia|
 | Bluetooth                                         | ✅     |                                   |
-| SD Card Reader                                    | ✅     |                                   |
+| SD Card Reader                                    | ✅     |Monterey only for now              |
 | Camera & Mic                                      | ✅     |                                   |
 | Speaker & 3.5mm audio port                        | ✅     |                                   |
 | iGPU                                              | ✅     |Needs GPU patching with [OCLP](https://github.com/dortania/OpenCore-Legacy-Patcher) on anything newer than Monterey                                   |
@@ -39,6 +39,8 @@ This EFI works perfectly and natively on Mac OS 12 `Monterey` and works fine wit
 
 
 ## Usage
+
+Make sure to have your bios set to UEFI <b>with CSM</b> and VRAM set to 64MB
 
 Download my EFI, Change your Serial with [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) and install.
 
